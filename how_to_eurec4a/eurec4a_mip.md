@@ -21,7 +21,9 @@ This section and its subsections are still under development.
 
 ## Setup
 ### Boundary conditions
-The boundary conditions and warming tendencies are provided on the DKRZ-SWIFT storage. The entire files can be accessed
+The boundary conditions and warming tendencies are provided on the DKRZ-SWIFT storage. The boundary conditions for the storm resolving models (SRM), for control simulations, consist of hourly data for ERA5 in the period of January 1 to March 1, 2020. For the pseudo-global-warming (PGW) conditions, we add the perturbations for the 4K experiment from the GFDL-CM4 model to the ERA5 data, for January 1 to March 1, 2020.![Uploading image.png…]()
+
+The entire files can be accessed
 - via the [EUREC⁴A Intake Catalog](https://github.com/eurec4a/eurec4a-intake)
   ```python
   import xarray as xr
