@@ -15,8 +15,15 @@ kernelspec:
 
 The EUREC⁴A-Model intercomparison project (EUREC⁴A-MIP) is an ongoing effort to test the ability of a variety of simulations to capture the observed variability of the trade-winds.
 
-```{note}
-This section and its subsections are still under development.
+The boundary conditions for the storm resolving models (SRM) for control simulations consist of hourly data of ERA5 from January 1 to March 1, 2020. For the future scenario, the pseudo-global warming (PGW) method was selected because it imposes large-scale changes in the climate system in a control simulation by adjusting the lateral boundary conditions (Brogli et al., 2023). The changes cover physical- and thermodynamics. Designed for a seasonal cycle, the modifications (called climate deltas) are intended as the 30-year monthly means of the driving GCM. The three-dimensional GCM fields involve temperature, specific humidity and wind (T, qv, u, v), as well as geopotential height. We apply this methodology in ERA5 from January 1 to March 1, 2020. The PGW deltas were obtained from the GFDL-CM4 model (Held et al., 2019), using the AMIP and AMIP-p4K experimental parameters. 
+
+The boundary conditions for large eddy simulations (LES) came from COSMO simulations at a 2.2-km horizontal resolution for control and PGW experiments covering the ocean just east of Barbados. Control simulations are driven by ERA5 from January 1 to March 1, 2020. We used the same PGW conditions as for the SRM simulations.
+
+Brogli, R., C. Heim, J. Mensch, S.L. Sørland, and C. Schär, 2023: The pseudo-global-warming (PGW) approach: Methodology, software package PGW4ERA5 v1.1, validation and sensitivity analyses. Geosci. Model Dev., 16, 907–926, doi.org/10.5194/gmd-16-907-2023&nbsp
+
+Held, I. M., Guo, H., Adcroft, A., Dunne, J. P., Horowitz, L. W., Krasting, J., et al. (2019). Structure and performance of GFDL's CM4.0 climate model. Journal of Advances in Modeling Earth Systems, 11(11), 3691– 3727. https://doi.org/10.1029/2019MS001829
+
+
 ```
 
 ## Setup
